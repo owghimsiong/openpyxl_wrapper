@@ -5,6 +5,16 @@
 Wrapper functions for the openpyxl library.
 '''
 
+# Import dependencies from py standard libs
+import re
+
+# Import dependencies from openpyxl
+import openpyxl
+from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font
+
+
+# Start of class
+
 class CellRangeIterator:
     '''
     Cell iterator to format cells easily.
